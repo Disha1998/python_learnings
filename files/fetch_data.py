@@ -125,6 +125,8 @@ def get_details():
     print(all_info)
     with open('all_company_info.json', 'w') as f:
             json.dump(all_info, f, indent=2)
+            
+            print(data)
         
 get_details()
             
