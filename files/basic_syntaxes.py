@@ -216,3 +216,53 @@
 # print(list(map(test, x)))
 
 
+# map, filter, reduse
+
+# create a function which will cube of the list
+
+# MAP
+# def cube(x):
+#     return x*x*x
+
+# print(cube(2))
+
+li = [2, 3, 1, 5, 6, 3]
+
+# newl = list(map(cube, li))
+
+# print(newl)
+
+# --- here if we dont want to create fucntion like "cube" then we can use lamba function
+
+# newl = list(map(lambda x : x*x*x, li))
+# print('with lambda function : ', newl)
+
+#  filter 
+
+
+# def filterdata(a):
+#     return a < 4
+
+
+# filter_data = list(filter(filterdata , li))
+
+# print(filter_data, '-with simple function')
+
+# filter with lambda function
+# filterData = list(filter(lambda x : x<4, li))
+# print(filterData)
+
+
+# # REDUCE
+
+# from functools import reduce
+
+# def sumTwoNum(a,b):
+#     return a + b
+
+# sum = reduce(sumTwoNum, li)
+
+#  - below is with lambda function
+# sum = reduce(lambda x, y : x + y, li)
+
+# print(sum , ' - reduce applied')
