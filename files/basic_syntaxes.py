@@ -266,3 +266,11 @@ li = [2, 3, 1, 5, 6, 3]
 # sum = reduce(lambda x, y : x + y, li)
 
 # print(sum , ' - reduce applied')
+
+
+
+n = [0,1,1,2,3]
+
+cube = list(map(lambda x: x*x*x, n))
+
+print(cube)

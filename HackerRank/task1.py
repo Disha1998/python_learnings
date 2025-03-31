@@ -44,4 +44,18 @@
 #         print("Not Weird") 
 
 
+# edabit - python challenges
 
+price_input = int(input())
+discount_input = int(input())
+
+print("price_input : ", price_input)
+print("discount_input : ", discount_input)
+
+
+def dis(price_input, discount_input):
+    a = price_input * discount_input / 100
+    return price_input - a
+
+print(dis(price_input,discount_input))
+	
