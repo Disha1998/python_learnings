@@ -63,7 +63,7 @@ try:
          r=requests.get(url)
          soup = BeautifulSoup(r.text,"html.parser")
         
-         with open("Airbnb_Delhi/all_page_urls.json", 'w') as f:
+         with open("Airbnb_Gandhingr/all_page_urls.json", 'w') as f:
                 json.dump(allUrl, f, indent=4)
 
 except: pass
